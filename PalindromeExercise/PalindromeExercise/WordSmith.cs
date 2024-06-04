@@ -3,7 +3,7 @@ namespace PalindromeExercise
 {
 	public class WordSmith
 	{
-		public bool IsAPalindrome(string word)
+		public static bool IsAPalindrome(string word)
 		{
 
 			var wordReversed = "";
@@ -25,6 +25,8 @@ namespace PalindromeExercise
 			}
 				
 		}
+
+
 
 		
 	}
